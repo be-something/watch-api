@@ -1,8 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/watch-api
-    username: postgres
-    password: s3cr3t
+    url: ${DATABASE_URL}
   jpa:
     properties:
       hibernate:
